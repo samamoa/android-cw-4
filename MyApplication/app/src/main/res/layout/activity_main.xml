@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#8FFFEB3B"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-black"
+        android:fontFeatureSettings="100dp"
+        android:padding="5dp"
+        android:text="ENTER THE FOLLOWING"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="218dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="70dp"
+        android:background="#8E24AA"
+        android:backgroundTint="#088E24AA"
+        android:ems="10"
+        android:hint="height"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="226dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="20dp"
+        android:background="#D9ADE4"
+        android:backgroundTint="#00009688"
+        android:ems="10"
+        android:hint="weight"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#9EFFB300"
+        android:text="Addition"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#9FFDD835"
+        android:text="MULTIPICATION"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#9EFDD835"
+        android:text="DIVISON"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
